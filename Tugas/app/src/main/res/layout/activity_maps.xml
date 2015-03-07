@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/img_compass" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="moveToQR"
+        android:text="CATCH JERRY"
+        android:textSize="16dp">
+        </Button>
+
+</RelativeLayout>
