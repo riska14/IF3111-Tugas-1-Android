@@ -17,7 +17,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:onClick="scanQR"
         android:text="QR Code"
         android:textSize="18dp">

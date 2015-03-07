@@ -1,5 +1,4 @@
 # Tugas 1 Android
-# Dikerjakan oleh Riska / 13512062
 
 Aplikasi ini adalah aplikasi android yang membantu Tom untuk mencari dan menangkap Jerry. 
 Aplikasi ini dibuat untuk berkomunikasi dengan Spike untuk mengetahui lokasi dan lama persembunyian Jerry di lokasi tersebut, juga dapat melaporkan penangkapan Jerry kepada Spike.
